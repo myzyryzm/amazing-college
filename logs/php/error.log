@@ -22,3 +22,21 @@
 [07-Mar-2020 17:50:31 UTC] PHP   4. WP_Hook->apply_filters() /Users/ryzm/Local Sites/amazing-college/app/public/wp-includes/class-wp-hook.php:312
 [07-Mar-2020 17:50:31 UTC] PHP   5. wp_update_themes() /Users/ryzm/Local Sites/amazing-college/app/public/wp-includes/class-wp-hook.php:288
 [07-Mar-2020 17:50:31 UTC] PHP   6. trigger_error() /Users/ryzm/Local Sites/amazing-college/app/public/wp-includes/update.php:577
+[08-Mar-2020 19:15:53 UTC] PHP Warning:  A non-numeric value encountered in /Users/ryzm/Local Sites/amazing-college/app/public/wp-content/themes/cool/index.php on line 19
+[08-Mar-2020 19:15:53 UTC] PHP Stack trace:
+[08-Mar-2020 19:15:53 UTC] PHP   1. {main}() /Users/ryzm/Local Sites/amazing-college/app/public/index.php:0
+[08-Mar-2020 19:15:53 UTC] PHP   2. require() /Users/ryzm/Local Sites/amazing-college/app/public/index.php:17
+[08-Mar-2020 19:15:53 UTC] PHP   3. require_once() /Users/ryzm/Local Sites/amazing-college/app/public/wp-blog-header.php:19
+[08-Mar-2020 19:15:53 UTC] PHP   4. include() /Users/ryzm/Local Sites/amazing-college/app/public/wp-includes/template-loader.php:98
+[08-Mar-2020 19:15:53 UTC] PHP Warning:  A non-numeric value encountered in /Users/ryzm/Local Sites/amazing-college/app/public/wp-content/themes/cool/index.php on line 19
+[08-Mar-2020 19:15:53 UTC] PHP Stack trace:
+[08-Mar-2020 19:15:53 UTC] PHP   1. {main}() /Users/ryzm/Local Sites/amazing-college/app/public/index.php:0
+[08-Mar-2020 19:15:53 UTC] PHP   2. require() /Users/ryzm/Local Sites/amazing-college/app/public/index.php:17
+[08-Mar-2020 19:15:53 UTC] PHP   3. require_once() /Users/ryzm/Local Sites/amazing-college/app/public/wp-blog-header.php:19
+[08-Mar-2020 19:15:53 UTC] PHP   4. include() /Users/ryzm/Local Sites/amazing-college/app/public/wp-includes/template-loader.php:98
+[08-Mar-2020 19:15:53 UTC] PHP Warning:  A non-numeric value encountered in /Users/ryzm/Local Sites/amazing-college/app/public/wp-content/themes/cool/index.php on line 19
+[08-Mar-2020 19:15:53 UTC] PHP Stack trace:
+[08-Mar-2020 19:15:53 UTC] PHP   1. {main}() /Users/ryzm/Local Sites/amazing-college/app/public/index.php:0
+[08-Mar-2020 19:15:53 UTC] PHP   2. require() /Users/ryzm/Local Sites/amazing-college/app/public/index.php:17
+[08-Mar-2020 19:15:53 UTC] PHP   3. require_once() /Users/ryzm/Local Sites/amazing-college/app/public/wp-blog-header.php:19
+[08-Mar-2020 19:15:53 UTC] PHP   4. include() /Users/ryzm/Local Sites/amazing-college/app/public/wp-includes/template-loader.php:98
