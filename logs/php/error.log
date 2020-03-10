@@ -40,3 +40,11 @@
 [08-Mar-2020 19:15:53 UTC] PHP   2. require() /Users/ryzm/Local Sites/amazing-college/app/public/index.php:17
 [08-Mar-2020 19:15:53 UTC] PHP   3. require_once() /Users/ryzm/Local Sites/amazing-college/app/public/wp-blog-header.php:19
 [08-Mar-2020 19:15:53 UTC] PHP   4. include() /Users/ryzm/Local Sites/amazing-college/app/public/wp-includes/template-loader.php:98
+[09-Mar-2020 01:08:13 UTC] PHP Fatal error:  Uncaught Exception: DateTime::__construct(): Failed to parse time string (21/03/2020) at position 0 (2): Unexpected character in /Users/ryzm/Local Sites/amazing-college/app/public/wp-content/themes/cool/front-page.php:37
+Stack trace:
+#0 /Users/ryzm/Local Sites/amazing-college/app/public/wp-content/themes/cool/front-page.php(37): DateTime->__construct('21/03/2020')
+#1 /Users/ryzm/Local Sites/amazing-college/app/public/wp-includes/template-loader.php(98): include('/Users/ryzm/Loc...')
+#2 /Users/ryzm/Local Sites/amazing-college/app/public/wp-blog-header.php(19): require_once('/Users/ryzm/Loc...')
+#3 /Users/ryzm/Local Sites/amazing-college/app/public/index.php(17): require('/Users/ryzm/Loc...')
+#4 {main}
+  thrown in /Users/ryzm/Local Sites/amazing-college/app/public/wp-content/themes/cool/front-page.php on line 37
